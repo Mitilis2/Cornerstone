@@ -1,0 +1,64 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#topbar-container{
+    display: flex;
+}
+#topbar {
+    background-color: #4E7096;
+    flex: 1;
+    
+
+}
+#topimage img{
+    size: 90%;
+}
+#topbar a {
+    text-decoration: none;
+    color: white;
+}
+#topbar a:visited {
+    color: white;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+.navbar {
+    background-color: grey;
+    opacity: 0.4;
+
+}
+
+
+#intro {
+
+}
+#resource{
+    background-color: #4E7096;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+#intro img {
+
+    }
+#wedge {
+    margin: 100px 0 0 100px;
+    width: 63px;
+    height: 6px;
+    background-color: #4E7096;
+}
+#shop-img{
+   display: flex;
+   flex-direction: column;
+}
+
+.col-1 {
+    align-content: start;
+}
+.col-2 {
+    align-content: end;
+}
